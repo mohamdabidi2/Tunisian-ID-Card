@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
+
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    
+}
+
+.head{
+    display: flex;
+    padding: 5px 0;
+  width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: #00000025 2px solid;
+}
+.logos{
+    height: 80px;
+}
+
+#all,#all2{
+    border-radius: 10px;
+ height: 400px;
+ background: white;
+ width: 750px;
+ background: url("./res/bg.png");
+ background-size: 100%;
+ background-repeat: no-repeat;
+ background-position-y: -50px;
+}
+.idcardBody{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.YourPhoto{
+    height: 230px;
+}
+.persDet{
+    display: flex;
+    justify-content: flex-start;
+    width: 400px;
+}
+.infostyle,.detInfo{
+    font-size: 25px;
+
+    height: 35px;
+}
+.infostyle,.det1{
+    font-weight: 900;
+}
+.infos{
+    padding-top: 10px;
+}
+.detInfo,.DET2{
+
+    padding: 0 10px;
+    font-family: 'Amiri', serif;
+    height: 35px;
+}
+.idCardNumber{
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.TitleText{
+    font-family: 'Reem Kufi', sans-serif;
+    text-align: center;
+    margin: 2px 0;
+}
+.isQr{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+.pre{
+    height: 230px;
+}
+.footer{
+    display: flex;
+    background: white;
+    padding: 5px 0;
+    margin-top: 5px;
+    justify-content: space-around;
+    height: 50px;
+}
+.barcode{
+    width: 50%;
+
+}
+.det1{
+    font-size: 25px;
+    margin: 0;
+}
+.idcodeemp{
+    padding-right: 40px;
+}
+
+
+
+
+
+.flip-card {
+    
+    background-color: transparent;
+    width: 750px;
+    height: 400px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+
+  
+  .flip-card-back {
+  
+ 
+    transform: rotateY(180deg);
+  }
